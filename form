@@ -35,3 +35,7 @@ src\components\TradeTable.js
   Line 379:38:  'MenuItem' is not defined     react/jsx-no-undef
 
 Search for the keywords to learn more about each error.
+
+
+import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
+import { FormControl, InputLabel, Select, MenuItem } from '@material-ui/core';
