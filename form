@@ -1,0 +1,20 @@
+<FormControl variant="outlined" size="small">
+    <InputLabel htmlFor="search-column">Filter By</InputLabel>
+    <Select
+        name="search-column"
+        value={searchColumn}
+        label="Filter By"
+        onChange={e => onSearchColumnChange(e)}
+        style={{ padding: '2.5px' }}
+    >
+        <MenuItem value="id">Trade ID</MenuItem>
+        <MenuItem value="party1">Party 1</MenuItem>
+        <MenuItem value="party2">Party 2</MenuItem>
+        <MenuItem value="counterparty">Counterparty</MenuItem>
+        <MenuItem value="ExchangedCurrency1">Currency 1</MenuItem>
+        <MenuItem value="ExchangedCurrency2">Currency 2</MenuItem>
+        <MenuItem value="Amount">Amount</MenuItem>
+        <MenuItem value="Date">Settlement Date</MenuItem>
+        <MenuItem value="Status">Status</MenuItem>
+    </Select>
+</FormControl>
